@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberArk.Extensions.Identity.AdmAccts", "CyberArk.Extensions.Identity.AdmAccts.csproj", "{AEE19A86-E5AF-4A8A-BE88-03F7FE323FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE19A86-E5AF-4A8A-BE88-03F7FE323FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE19A86-E5AF-4A8A-BE88-03F7FE323FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE19A86-E5AF-4A8A-BE88-03F7FE323FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE19A86-E5AF-4A8A-BE88-03F7FE323FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31AB17C2-DCED-439E-A550-AD5877A1BA4B}
+	EndGlobalSection
+EndGlobal

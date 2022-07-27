@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AccessDenied" xml:space="preserve">
+    <value>Invalid client creds or client not allowed.</value>
+  </data>
+  <data name="ActionResponseFailure" xml:space="preserve">
+    <value>response failure. </value>
+  </data>
+  <data name="ActionResponseSuccess" xml:space="preserve">
+    <value> response validated. JSON indicates action was successful. </value>
+  </data>
+  <data name="BadRequestRecieved" xml:space="preserve">
+    <value>400 Bad Request Failure. Checking failure type.</value>
+  </data>
+  <data name="ChangeSuccess" xml:space="preserve">
+    <value>Change Action Ended Successfully.</value>
+  </data>
+  <data name="ErrorTimeout" xml:space="preserve">
+    <value>Timeout Error. Unable to resolve address or unable to connect to address.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Unknown error occured: </value>
+  </data>
+  <data name="GenericTokenException" xml:space="preserve">
+    <value>Generic Token Request Exception:  </value>
+  </data>
+  <data name="HttpConnectFailure" xml:space="preserve">
+    <value>WebException: Connection Failure. Unable to connect to the remote server.</value>
+  </data>
+  <data name="HttpGeneralRequestError" xml:space="preserve">
+    <value>Http Request Exeption: Response status code does not indicate success: 400 (Bad Request). No Inner Exception available.</value>
+  </data>
+  <data name="HttpNameResolutionFailure" xml:space="preserve">
+    <value>WebException: Name Resolution Error. The remote name could not be resolved.</value>
+  </data>
+  <data name="HttpRequestException" xml:space="preserve">
+    <value>Non 200 Http Response Recieved. The Identity Web Server is not available or the user credentials were not accepted.</value>
+  </data>
+  <data name="HttpSecureChannelError" xml:space="preserve">
+    <value>Http Request Exeption: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel</value>
+  </data>
+  <data name="HttpUnhandledInnerException" xml:space="preserve">
+    <value>InnerException: Unhandled.</value>
+  </data>
+  <data name="HttpUnhandledInnerWebException" xml:space="preserve">
+    <value>WebException: Unhandled.</value>
+  </data>
+  <data name="InvalidApp" xml:space="preserve">
+    <value>Unknown Application.</value>
+  </data>
+  <data name="InvalidAuthMode" xml:space="preserve">
+    <value>Client Credentials Authentication Mode is not enabled for this App.</value>
+  </data>
+  <data name="InvalidClientOrCreds" xml:space="preserve">
+    <value>Invalid Client or Credentials.</value>
+  </data>
+  <data name="InvalidGrantType" xml:space="preserve">
+    <value>Invalid Grant Type</value>
+  </data>
+  <data name="InvalidScope" xml:space="preserve">
+    <value>Unknown scope requested.</value>
+  </data>
+  <data name="InvalidUserAccess" xml:space="preserve">
+    <value>User not able to access Identity Application</value>
+  </data>
+  <data name="LogonSuccess" xml:space="preserve">
+    <value>Logon Action Ended Successfully.</value>
+  </data>
+  <data name="PasswordComplexity" xml:space="preserve">
+    <value>Password update failed. Please make sure the password meet the complexity requirements. Password must be at least 8 characters long, not be longer than 64 characters, contain at least one digit, contain at least one upper and one lower case letter.</value>
+  </data>
+  <data name="PasswordJsonRead" xml:space="preserve">
+    <value>After parsing a value an unexpected character was encountered. </value>
+  </data>
+  <data name="PasswordLastN" xml:space="preserve">
+    <value>Password update failed. Please make sure the new password is not one of last few passwords.</value>
+  </data>
+  <data name="PasswordSameAsOld" xml:space="preserve">
+    <value>Password update failed. Please make sure the new password is not the same as the current one.</value>
+  </data>
+  <data name="PrereconcileSuccess" xml:space="preserve">
+    <value>Prereconcile Action Ended Successfully.</value>
+  </data>
+  <data name="RecieveActionResponse" xml:space="preserve">
+    <value> request response recieved. Validating JSON response success value.</value>
+  </data>
+  <data name="ReconcileSuccess" xml:space="preserve">
+    <value>Reconcile Action Ended Successfully.</value>
+  </data>
+  <data name="RequiredParameter" xml:space="preserve">
+    <value>Missing required parameter.</value>
+  </data>
+  <data name="SendActionRequest" xml:space="preserve">
+    <value>Sending request for </value>
+  </data>
+  <data name="ServiceNotAuthorized" xml:space="preserve">
+    <value>You are not authorized to perform this operation. Please contact your IT helpdesk.</value>
+  </data>
+  <data name="TimeoutTokenException" xml:space="preserve">
+    <value>Timeout Token Request Exception: </value>
+  </data>
+  <data name="TokenError" xml:space="preserve">
+    <value>Unable to extract bearer token from Identity Server response.</value>
+  </data>
+  <data name="TokenSuccess" xml:space="preserve">
+    <value>Extracted bearer token from Identity Server response.</value>
+  </data>
+  <data name="UnhandledApiResponse" xml:space="preserve">
+    <value>Unahandled API Response recieved: </value>
+  </data>
+  <data name="UnhandledApiStatusCode" xml:space="preserve">
+    <value>Unhandled Status Code recieved: </value>
+  </data>
+  <data name="UnhandledWebException" xml:space="preserve">
+    <value>WebException: Unhandled -  </value>
+  </data>
+  <data name="UpdateAuthenticationHeader" xml:space="preserve">
+    <value>Updating HttpClient authentication header to utilize Oauth2 Bearer Token.</value>
+  </data>
+  <data name="UserIdNotFound" xml:space="preserve">
+    <value>User Id not found.</value>
+  </data>
+  <data name="UserNotAuthorized" xml:space="preserve">
+    <value>You are not authorized to perform this operation. Please contact your IT helpdesk.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User not found; they may have been deleted or the directory may be unavailable.</value>
+  </data>
+  <data name="UuidError" xml:space="preserve">
+    <value>Unable to extract UUID from Identity Server response.</value>
+  </data>
+  <data name="UuidSuccess" xml:space="preserve">
+    <value>Extracted UUID from Identity Server Resposne.</value>
+  </data>
+  <data name="ValidatingResponse" xml:space="preserve">
+    <value>Validating JSON response success value.</value>
+  </data>
+  <data name="VerifySuccess" xml:space="preserve">
+    <value>Verify Action Ended Successfully.</value>
+  </data>
+</root>

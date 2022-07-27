@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<LangVersion>latest</LangVersion>
+	<PlatformTarget>x86</PlatformTarget>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	<DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	<DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CyberArk.Extensions.Identity">
+      <HintPath>..\..\..\..\..\..\Extensions\CyberArk.Extensions.Identity.dll</HintPath>
+    </Reference>
+    <Reference Include="CyberArk.Extensions.Plugin.RestAPI">
+      <HintPath>..\..\..\..\..\..\Extensions\CyberArk.Extensions.Plugin.RestAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="CyberArk.Extensions.Plugins.Models">
+      <HintPath>..\..\..\..\..\..\Extensions\CyberArk.Extensions.Plugins.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="CyberArk.Extensions.Utilties">
+      <HintPath>..\..\..\..\..\..\Extensions\CyberArk.Extensions.Utilties.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
